@@ -1,0 +1,37 @@
+{
+  "name": "caretracker",
+  "version": "1.0.0",
+  "description": "track, care your loved ones.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon run app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OvaisKhanday/careTracker.git"
+  },
+  "keywords": [
+    "Khanday",
+    "Ovais",
+    "careTracker"
+  ],
+  "author": "Khanday Ovais",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/OvaisKhanday/careTracker/issues"
+  },
+  "homepage": "https://github.com/OvaisKhanday/careTracker#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "~4.16.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
